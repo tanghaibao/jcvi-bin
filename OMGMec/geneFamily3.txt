@@ -1,0 +1,816 @@
+a group of genes  :length =204
+weight 66
+evm.TU.supercontig_12.120	12	1086049	1086258	-	0	diploid
+clementine0.9_021698m	4	6234465	6237705	+	1	diploid
+
+weight 71
+evm.TU.supercontig_12.121	12	1098536	1102298	-	0	diploid
+clementine0.9_003496m	4	6180004	6184176	+	1	diploid
+
+weight 74
+evm.TU.supercontig_7.79	7	737648	740021	-	0	diploid
+clementine0.9_004613m	19	2117409	2121584	-	1	diploid
+
+weight 72
+evm.TU.supercontig_7.85	7	788740	790921	+	0	diploid
+clementine0.9_003985m	19	2089177	2091843	-	1	diploid
+
+weight 79
+evm.TU.supercontig_7.98	7	883086	888869	+	0	diploid
+clementine0.9_013229m	19	2006510	2009413	+	1	diploid
+
+weight 82
+evm.TU.supercontig_7.99	7	897366	902175	+	0	diploid
+clementine0.9_001466m	19	2011355	2016679	+	1	diploid
+
+weight 65
+evm.TU.supercontig_7.107	7	971400	975416	-	0	diploid
+clementine0.9_005064m	19	2039379	2042975	-	1	diploid
+
+weight 66
+evm.TU.supercontig_12.120	12	1086049	1086258	-	0	diploid
+orange1.1g028195m	70	247314	250837	-	2	diploid
+
+weight 71
+evm.TU.supercontig_12.121	12	1098536	1102298	-	0	diploid
+orange1.1g006553m	70	289203	292300	-	2	diploid
+
+weight 74
+evm.TU.supercontig_7.79	7	737648	740021	-	0	diploid
+orange1.1g005734m	7	756535	760930	+	2	diploid
+
+weight 73
+evm.TU.supercontig_7.85	7	788740	790921	+	0	diploid
+orange1.1g005572m	7	785019	787682	+	2	diploid
+
+weight 79
+evm.TU.supercontig_7.98	7	883086	888869	+	0	diploid
+orange1.1g017194m	7	859392	862298	-	2	diploid
+
+weight 82
+evm.TU.supercontig_7.99	7	897366	902175	+	0	diploid
+orange1.1g002020m	7	852258	857592	-	2	diploid
+
+weight 70
+evm.TU.supercontig_7.107	7	971400	975416	-	0	diploid
+orange1.1g013710m	7	846572	847885	-	2	diploid
+
+weight 60
+evm.TU.supercontig_12.121	12	1098536	1102298	-	0	diploid
+Cucsa.099960	926	608624	612808	+	3	tetraploid
+
+weight 78
+evm.TU.supercontig_7.84	7	783728	785191	-	0	diploid
+Cucsa.047020	542	2217879	2219231	-	3	tetraploid
+
+weight 71
+evm.TU.supercontig_7.79	7	737648	740021	-	0	diploid
+Cucsa.213070	1543	821565	825160	-	3	tetraploid
+
+weight 70
+evm.TU.supercontig_7.84	7	783728	785191	-	0	diploid
+Cucsa.213050	1543	806210	808031	-	3	tetraploid
+
+weight 64
+evm.TU.supercontig_7.85	7	788740	790921	+	0	diploid
+Cucsa.213040	1543	796299	798558	-	3	tetraploid
+
+weight 73
+evm.TU.supercontig_7.87	7	797262	799630	+	0	diploid
+Cucsa.213030	1543	784972	788791	-	3	tetraploid
+
+weight 76
+evm.TU.supercontig_7.98	7	883086	888869	+	0	diploid
+Cucsa.212900	1543	701056	710263	+	3	tetraploid
+
+weight 79
+evm.TU.supercontig_7.99	7	897366	902175	+	0	diploid
+Cucsa.212920	1543	713333	719724	+	3	tetraploid
+
+weight 67
+evm.TU.supercontig_7.100	7	904052	905272	+	0	diploid
+Cucsa.212930	1543	721478	723592	+	3	tetraploid
+
+weight 60
+evm.TU.supercontig_7.107	7	971400	975416	-	0	diploid
+Cucsa.213000	1543	762732	768180	+	3	tetraploid
+
+weight 69
+evm.TU.supercontig_7.126	7	1200331	1210920	+	0	diploid
+Cucsa.213050	1543	806210	808031	-	3	tetraploid
+
+weight 70
+evm.TU.supercontig_12.120	12	1086049	1086258	-	0	diploid
+Egrandis_v1_0.026567m	6	27297361	27299235	+	4	tetraploid
+
+weight 73
+evm.TU.supercontig_12.120	12	1086049	1086258	-	0	diploid
+Egrandis_v1_0.026573m	6	45135712	45137863	+	4	tetraploid
+
+weight 61
+evm.TU.supercontig_12.121	12	1098536	1102298	-	0	diploid
+Egrandis_v1_0.003927m	6	45127964	45133355	+	4	tetraploid
+
+weight 67
+evm.TU.supercontig_27.221	27	2101717	2105394	+	0	diploid
+Egrandis_v1_0.003899m	5	67339779	67347231	+	4	tetraploid
+
+weight 69
+evm.TU.supercontig_7.79	7	737648	740021	-	0	diploid
+Egrandis_v1_0.004233m	5	44611239	44615573	+	4	tetraploid
+
+weight 67
+evm.TU.supercontig_7.84	7	783728	785191	-	0	diploid
+Egrandis_v1_0.014102m	5	44647069	44648487	+	4	tetraploid
+
+weight 63
+evm.TU.supercontig_7.85	7	788740	790921	+	0	diploid
+Egrandis_v1_0.004766m	5	44662385	44666024	+	4	tetraploid
+
+weight 72
+evm.TU.supercontig_7.87	7	797262	799630	+	0	diploid
+Egrandis_v1_0.012244m	5	44697712	44705363	+	4	tetraploid
+
+weight 74
+evm.TU.supercontig_7.98	7	883086	888869	+	0	diploid
+Egrandis_v1_0.016465m	5	44766006	44770921	-	4	tetraploid
+
+weight 78
+evm.TU.supercontig_7.84	7	783728	785191	-	0	diploid
+Egrandis_v1_0.010605m	4	8669712	8671172	+	4	tetraploid
+
+weight 79
+evm.TU.supercontig_7.99	7	897366	902175	+	0	diploid
+Egrandis_v1_0.001605m	4	8616945	8623281	+	4	tetraploid
+
+weight 69
+evm.TU.supercontig_12.121	12	1098536	1102298	-	0	diploid
+gene20550-v1.0-hybrid	3	29734270	29747834	-	5	diploid
+
+weight 74
+evm.TU.supercontig_211.37	211	273907	280242	-	0	diploid
+gene15535-v1.0-hybrid	6	15382959	15384192	-	5	diploid
+
+weight 72
+evm.TU.supercontig_7.79	7	737648	740021	-	0	diploid
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+
+weight 76
+evm.TU.supercontig_7.84	7	783728	785191	-	0	diploid
+gene29682-v1.0-hybrid	3	5107006	5108529	-	5	diploid
+
+weight 69
+evm.TU.supercontig_7.85	7	788740	790921	+	0	diploid
+gene29685-v1.0-hybrid	3	5121415	5123768	+	5	diploid
+
+weight 69
+evm.TU.supercontig_7.87	7	797262	799630	+	0	diploid
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+
+weight 81
+evm.TU.supercontig_7.98	7	883086	888869	+	0	diploid
+gene29698-v1.0-hybrid	3	5190037	5200643	-	5	diploid
+
+weight 63
+evm.TU.supercontig_7.107	7	971400	975416	-	0	diploid
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+
+weight 71
+evm.TU.supercontig_12.120	12	1086049	1086258	-	0	diploid
+7729FGENESHplus_384fg	7729	161568	164847	+	6	tetraploid
+
+weight 63
+evm.TU.supercontig_12.121	12	1098536	1102298	-	0	diploid
+7729FGENESHplus_382fg	7729	148009	151283	+	6	tetraploid
+
+weight 74
+evm.TU.supercontig_12.120	12	1086049	1086258	-	0	diploid
+964FGENESHplus_10fg	964	162755	163680	-	6	tetraploid
+
+weight 76
+evm.TU.supercontig_211.37	211	273907	280242	-	0	diploid
+3140FGENESHplus_415fg	3140	215396	216376	-	6	tetraploid
+
+weight 72
+evm.TU.supercontig_7.79	7	737648	740021	-	0	diploid
+7938FGENESHplus_148fg	7938	135461	140399	-	6	tetraploid
+
+weight 70
+evm.TU.supercontig_7.85	7	788740	790921	+	0	diploid
+7938FGENESHplus_144fg	7938	107219	109665	-	6	tetraploid
+
+weight 73
+evm.TU.supercontig_7.87	7	797262	799630	+	0	diploid
+7938FGENESHplus_143fg	7938	101686	105602	-	6	tetraploid
+
+weight 78
+evm.TU.supercontig_7.98	7	883086	888869	+	0	diploid
+7938FGENESHplus_142fg	7938	8946	9194	-	6	tetraploid
+
+weight 69
+evm.TU.supercontig_7.100	7	904052	905272	+	0	diploid
+7938FGENESHplus_139fg	7938	18088	19373	+	6	tetraploid
+
+weight 65
+evm.TU.supercontig_7.107	7	971400	975416	-	0	diploid
+7938FGENESHplus_151fg	7938	30341	34181	-	6	tetraploid
+
+weight 69
+evm.TU.supercontig_7.87	7	797262	799630	+	0	diploid
+8716FGENESHplus_23fg.50558FGENESHplus_24fg	8716	14852	19796	+	6	tetraploid
+
+weight 82
+evm.TU.supercontig_7.99	7	897366	902175	+	0	diploid
+8716FGENESHplus_30fg	8716	108251	114614	-	6	tetraploid
+
+weight 71
+evm.TU.supercontig_7.100	7	904052	905272	+	0	diploid
+8716FGENESHplus_29fg	8716	105017	106329	-	6	tetraploid
+
+weight 98
+clementine0.9_013229m	19	2006510	2009413	+	1	diploid
+orange1.1g017194m	7	859392	862298	-	2	diploid
+
+weight 99
+clementine0.9_001466m	19	2011355	2016679	+	1	diploid
+orange1.1g002020m	7	852258	857592	-	2	diploid
+
+weight 98
+clementine0.9_005064m	19	2039379	2042975	-	1	diploid
+orange1.1g006907m	7	825560	829120	+	2	diploid
+
+weight 98
+clementine0.9_003985m	19	2089177	2091843	-	1	diploid
+orange1.1g005572m	7	785019	787682	+	2	diploid
+
+weight 99
+clementine0.9_004613m	19	2117409	2121584	-	1	diploid
+orange1.1g005734m	7	756535	760930	+	2	diploid
+
+weight 99
+clementine0.9_033130m	26	3329924	3333542	+	1	diploid
+orange1.1g042084m	23	1411791	1415409	+	2	diploid
+
+weight 99
+clementine0.9_003496m	4	6180004	6184176	+	1	diploid
+orange1.1g006553m	70	289203	292300	-	2	diploid
+
+weight 99
+clementine0.9_021698m	4	6234465	6237705	+	1	diploid
+orange1.1g028195m	70	247314	250837	-	2	diploid
+
+weight 99
+clementine0.9_031778m	49	1233273	1234298	+	1	diploid
+orange1.1g040712m	193	72417	73220	-	2	diploid
+
+weight 76
+clementine0.9_004613m	19	2117409	2121584	-	1	diploid
+Cucsa.047040	542	2231588	2235168	+	3	tetraploid
+
+weight 73
+clementine0.9_013229m	19	2006510	2009413	+	1	diploid
+Cucsa.212900	1543	701056	710263	+	3	tetraploid
+
+weight 80
+clementine0.9_001466m	19	2011355	2016679	+	1	diploid
+Cucsa.212920	1543	713333	719724	+	3	tetraploid
+
+weight 67
+clementine0.9_003985m	19	2089177	2091843	-	1	diploid
+Cucsa.213040	1543	796299	798558	-	3	tetraploid
+
+weight 67
+clementine0.9_004613m	19	2117409	2121584	-	1	diploid
+Cucsa.213070	1543	821565	825160	-	3	tetraploid
+
+weight 75
+clementine0.9_033130m	26	3329924	3333542	+	1	diploid
+Cucsa.099960	926	608624	612808	+	3	tetraploid
+
+weight 71
+clementine0.9_003496m	4	6180004	6184176	+	1	diploid
+Cucsa.247810	2205	136018	142499	+	3	tetraploid
+
+weight 69
+clementine0.9_031778m	49	1233273	1234298	+	1	diploid
+Cucsa.100220	926	789957	796080	+	3	tetraploid
+
+weight 80
+clementine0.9_001466m	19	2011355	2016679	+	1	diploid
+Egrandis_v1_0.001605m	4	8616945	8623281	+	4	tetraploid
+
+weight 74
+clementine0.9_013229m	19	2006510	2009413	+	1	diploid
+Egrandis_v1_0.016465m	5	44766006	44770921	-	4	tetraploid
+
+weight 75
+clementine0.9_005064m	19	2039379	2042975	-	1	diploid
+Egrandis_v1_0.006005m	5	44746712	44751508	+	4	tetraploid
+
+weight 64
+clementine0.9_003985m	19	2089177	2091843	-	1	diploid
+Egrandis_v1_0.004766m	5	44662385	44666024	+	4	tetraploid
+
+weight 75
+clementine0.9_033130m	26	3329924	3333542	+	1	diploid
+Egrandis_v1_0.052999m	8	71709582	71713685	+	4	tetraploid
+
+weight 79
+clementine0.9_021698m	4	6234465	6237705	+	1	diploid
+Egrandis_v1_0.026567m	6	27297361	27299235	+	4	tetraploid
+
+weight 69
+clementine0.9_003496m	4	6180004	6184176	+	1	diploid
+Egrandis_v1_0.003927m	6	45127964	45133355	+	4	tetraploid
+
+weight 79
+clementine0.9_021698m	4	6234465	6237705	+	1	diploid
+Egrandis_v1_0.026573m	6	45135712	45137863	+	4	tetraploid
+
+weight 82
+clementine0.9_001466m	19	2011355	2016679	+	1	diploid
+gene29698-v1.0-hybrid	3	5190037	5200643	-	5	diploid
+
+weight 70
+clementine0.9_003985m	19	2089177	2091843	-	1	diploid
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+
+weight 77
+clementine0.9_033130m	26	3329924	3333542	+	1	diploid
+gene17115-v1.0-hybrid	2	10353276	10357056	+	5	diploid
+
+weight 71
+clementine0.9_003496m	4	6180004	6184176	+	1	diploid
+gene20550-v1.0-hybrid	3	29734270	29747834	-	5	diploid
+
+weight 70
+clementine0.9_031778m	49	1233273	1234298	+	1	diploid
+gene15535-v1.0-hybrid	6	15382959	15384192	-	5	diploid
+
+weight 77
+clementine0.9_013229m	19	2006510	2009413	+	1	diploid
+7938FGENESHplus_137fg	7938	12194	13874	+	6	tetraploid
+
+weight 81
+clementine0.9_005064m	19	2039379	2042975	-	1	diploid
+7938FGENESHplus_151fg	7938	30341	34181	-	6	tetraploid
+
+weight 71
+clementine0.9_003985m	19	2089177	2091843	-	1	diploid
+7938FGENESHplus_144fg	7938	107219	109665	-	6	tetraploid
+
+weight 71
+clementine0.9_004613m	19	2117409	2121584	-	1	diploid
+7938FGENESHplus_148fg	7938	135461	140399	-	6	tetraploid
+
+weight 83
+clementine0.9_001466m	19	2011355	2016679	+	1	diploid
+8716FGENESHplus_30fg	8716	108251	114614	-	6	tetraploid
+
+weight 78
+clementine0.9_005064m	19	2039379	2042975	-	1	diploid
+8716FGENESHplus_26fg	8716	42590	46257	+	6	tetraploid
+
+weight 79
+clementine0.9_033130m	26	3329924	3333542	+	1	diploid
+7110FGENESHplus_245fg	7110	451711	455461	+	6	tetraploid
+
+weight 75
+clementine0.9_003496m	4	6180004	6184176	+	1	diploid
+7729FGENESHplus_382fg	7729	148009	151283	+	6	tetraploid
+
+weight 79
+clementine0.9_021698m	4	6234465	6237705	+	1	diploid
+7729FGENESHplus_384fg	7729	161568	164847	+	6	tetraploid
+
+weight 70
+clementine0.9_021698m	4	6234465	6237705	+	1	diploid
+964FGENESHplus_10fg	964	162755	163680	-	6	tetraploid
+
+weight 70
+clementine0.9_031778m	49	1233273	1234298	+	1	diploid
+3140FGENESHplus_415fg	3140	215396	216376	-	6	tetraploid
+
+weight 77
+orange1.1g011628m	7	775288	776733	-	2	diploid
+Cucsa.047020	542	2217879	2219231	-	3	tetraploid
+
+weight 75
+orange1.1g006907m	7	825560	829120	+	2	diploid
+Cucsa.047040	542	2231588	2235168	+	3	tetraploid
+
+weight 67
+orange1.1g005734m	7	756535	760930	+	2	diploid
+Cucsa.213070	1543	821565	825160	-	3	tetraploid
+
+weight 72
+orange1.1g011628m	7	775288	776733	-	2	diploid
+Cucsa.213050	1543	806210	808031	-	3	tetraploid
+
+weight 67
+orange1.1g005572m	7	785019	787682	+	2	diploid
+Cucsa.213040	1543	796299	798558	-	3	tetraploid
+
+weight 80
+orange1.1g002020m	7	852258	857592	-	2	diploid
+Cucsa.212920	1543	713333	719724	+	3	tetraploid
+
+weight 73
+orange1.1g017194m	7	859392	862298	-	2	diploid
+Cucsa.212900	1543	701056	710263	+	3	tetraploid
+
+weight 75
+orange1.1g042084m	23	1411791	1415409	+	2	diploid
+Cucsa.099960	926	608624	612808	+	3	tetraploid
+
+weight 70
+orange1.1g040712m	193	72417	73220	-	2	diploid
+Cucsa.100220	926	789957	796080	+	3	tetraploid
+
+weight 80
+orange1.1g002020m	7	852258	857592	-	2	diploid
+Egrandis_v1_0.001605m	4	8616945	8623281	+	4	tetraploid
+
+weight 64
+orange1.1g005572m	7	785019	787682	+	2	diploid
+Egrandis_v1_0.004766m	5	44662385	44666024	+	4	tetraploid
+
+weight 75
+orange1.1g006907m	7	825560	829120	+	2	diploid
+Egrandis_v1_0.006005m	5	44746712	44751508	+	4	tetraploid
+
+weight 67
+orange1.1g013710m	7	846572	847885	-	2	diploid
+Egrandis_v1_0.011093m	5	44756449	44757882	-	4	tetraploid
+
+weight 74
+orange1.1g017194m	7	859392	862298	-	2	diploid
+Egrandis_v1_0.016465m	5	44766006	44770921	-	4	tetraploid
+
+weight 79
+orange1.1g028195m	70	247314	250837	-	2	diploid
+Egrandis_v1_0.026573m	6	45135712	45137863	+	4	tetraploid
+
+weight 69
+orange1.1g006553m	70	289203	292300	-	2	diploid
+Egrandis_v1_0.003927m	6	45127964	45133355	+	4	tetraploid
+
+weight 79
+orange1.1g028195m	70	247314	250837	-	2	diploid
+Egrandis_v1_0.026567m	6	27297361	27299235	+	4	tetraploid
+
+weight 70
+orange1.1g005572m	7	785019	787682	+	2	diploid
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+
+weight 82
+orange1.1g002020m	7	852258	857592	-	2	diploid
+gene29698-v1.0-hybrid	3	5190037	5200643	-	5	diploid
+
+weight 71
+orange1.1g028195m	70	247314	250837	-	2	diploid
+gene20550-v1.0-hybrid	3	29734270	29747834	-	5	diploid
+
+weight 69
+orange1.1g040712m	193	72417	73220	-	2	diploid
+gene15535-v1.0-hybrid	6	15382959	15384192	-	5	diploid
+
+weight 71
+orange1.1g005734m	7	756535	760930	+	2	diploid
+7938FGENESHplus_148fg	7938	135461	140399	-	6	tetraploid
+
+weight 71
+orange1.1g005572m	7	785019	787682	+	2	diploid
+7938FGENESHplus_144fg	7938	107219	109665	-	6	tetraploid
+
+weight 81
+orange1.1g006907m	7	825560	829120	+	2	diploid
+7938FGENESHplus_151fg	7938	30341	34181	-	6	tetraploid
+
+weight 75
+orange1.1g013710m	7	846572	847885	-	2	diploid
+7938FGENESHplus_139fg	7938	18088	19373	+	6	tetraploid
+
+weight 77
+orange1.1g017194m	7	859392	862298	-	2	diploid
+7938FGENESHplus_137fg	7938	12194	13874	+	6	tetraploid
+
+weight 78
+orange1.1g006907m	7	825560	829120	+	2	diploid
+8716FGENESHplus_26fg	8716	42590	46257	+	6	tetraploid
+
+weight 72
+orange1.1g013710m	7	846572	847885	-	2	diploid
+8716FGENESHplus_29fg	8716	105017	106329	-	6	tetraploid
+
+weight 83
+orange1.1g002020m	7	852258	857592	-	2	diploid
+8716FGENESHplus_30fg	8716	108251	114614	-	6	tetraploid
+
+weight 79
+orange1.1g028195m	70	247314	250837	-	2	diploid
+7729FGENESHplus_384fg	7729	161568	164847	+	6	tetraploid
+
+weight 75
+orange1.1g006553m	70	289203	292300	-	2	diploid
+7729FGENESHplus_382fg	7729	148009	151283	+	6	tetraploid
+
+weight 70
+orange1.1g028195m	70	247314	250837	-	2	diploid
+964FGENESHplus_10fg	964	162755	163680	-	6	tetraploid
+
+weight 65
+Cucsa.047020	542	2217879	2219231	-	3	tetraploid
+Cucsa.213050	1543	806210	808031	-	3	tetraploid
+
+weight 73
+Cucsa.047070	542	2245756	2247051	-	3	tetraploid
+Cucsa.212930	1543	721478	723592	+	3	tetraploid
+
+weight 63
+Cucsa.047020	542	2217879	2219231	-	3	tetraploid
+Egrandis_v1_0.014102m	5	44647069	44648487	+	4	tetraploid
+
+weight 73
+Cucsa.047040	542	2231588	2235168	+	3	tetraploid
+Egrandis_v1_0.006005m	5	44746712	44751508	+	4	tetraploid
+
+weight 69
+Cucsa.047070	542	2245756	2247051	-	3	tetraploid
+Egrandis_v1_0.011093m	5	44756449	44757882	-	4	tetraploid
+
+weight 77
+Cucsa.047020	542	2217879	2219231	-	3	tetraploid
+Egrandis_v1_0.010605m	4	8669712	8671172	+	4	tetraploid
+
+weight 73
+Cucsa.099960	926	608624	612808	+	3	tetraploid
+Egrandis_v1_0.052999m	8	71709582	71713685	+	4	tetraploid
+
+weight 69
+Cucsa.212900	1543	701056	710263	+	3	tetraploid
+Egrandis_v1_0.016465m	5	44766006	44770921	-	4	tetraploid
+
+weight 67
+Cucsa.212930	1543	721478	723592	+	3	tetraploid
+Egrandis_v1_0.011093m	5	44756449	44757882	-	4	tetraploid
+
+weight 66
+Cucsa.213030	1543	784972	788791	-	3	tetraploid
+Egrandis_v1_0.012244m	5	44697712	44705363	+	4	tetraploid
+
+weight 61
+Cucsa.213040	1543	796299	798558	-	3	tetraploid
+Egrandis_v1_0.004766m	5	44662385	44666024	+	4	tetraploid
+
+weight 68
+Cucsa.213050	1543	806210	808031	-	3	tetraploid
+Egrandis_v1_0.014102m	5	44647069	44648487	+	4	tetraploid
+
+weight 67
+Cucsa.213070	1543	821565	825160	-	3	tetraploid
+Egrandis_v1_0.004233m	5	44611239	44615573	+	4	tetraploid
+
+weight 79
+Cucsa.212920	1543	713333	719724	+	3	tetraploid
+Egrandis_v1_0.001605m	4	8616945	8623281	+	4	tetraploid
+
+weight 62
+Cucsa.213050	1543	806210	808031	-	3	tetraploid
+Egrandis_v1_0.010605m	4	8669712	8671172	+	4	tetraploid
+
+weight 75
+Cucsa.047040	542	2231588	2235168	+	3	tetraploid
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+
+weight 72
+Cucsa.047070	542	2245756	2247051	-	3	tetraploid
+gene29698-v1.0-hybrid	3	5190037	5200643	-	5	diploid
+
+weight 74
+Cucsa.099960	926	608624	612808	+	3	tetraploid
+gene17115-v1.0-hybrid	2	10353276	10357056	+	5	diploid
+
+weight 76
+Cucsa.100220	926	789957	796080	+	3	tetraploid
+gene15535-v1.0-hybrid	6	15382959	15384192	-	5	diploid
+
+weight 81
+Cucsa.212900	1543	701056	710263	+	3	tetraploid
+gene29698-v1.0-hybrid	3	5190037	5200643	-	5	diploid
+
+weight 73
+Cucsa.213050	1543	806210	808031	-	3	tetraploid
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+
+weight 74
+Cucsa.047040	542	2231588	2235168	+	3	tetraploid
+8716FGENESHplus_26fg	8716	42590	46257	+	6	tetraploid
+
+weight 69
+Cucsa.047070	542	2245756	2247051	-	3	tetraploid
+8716FGENESHplus_29fg	8716	105017	106329	-	6	tetraploid
+
+weight 74
+Cucsa.099960	926	608624	612808	+	3	tetraploid
+7110FGENESHplus_245fg	7110	451711	455461	+	6	tetraploid
+
+weight 76
+Cucsa.100220	926	789957	796080	+	3	tetraploid
+3140FGENESHplus_415fg	3140	215396	216376	-	6	tetraploid
+
+weight 63
+Cucsa.212920	1543	713333	719724	+	3	tetraploid
+7110FGENESHplus_245fg	7110	451711	455461	+	6	tetraploid
+
+weight 73
+Cucsa.212900	1543	701056	710263	+	3	tetraploid
+7938FGENESHplus_137fg	7938	12194	13874	+	6	tetraploid
+
+weight 69
+Cucsa.212930	1543	721478	723592	+	3	tetraploid
+7938FGENESHplus_139fg	7938	18088	19373	+	6	tetraploid
+
+weight 73
+Cucsa.213000	1543	762732	768180	+	3	tetraploid
+7938FGENESHplus_152fg	7938	35648	39330	-	6	tetraploid
+
+weight 72
+Cucsa.213030	1543	784972	788791	-	3	tetraploid
+7938FGENESHplus_143fg	7938	101686	105602	-	6	tetraploid
+
+weight 69
+Cucsa.213070	1543	821565	825160	-	3	tetraploid
+7938FGENESHplus_148fg	7938	135461	140399	-	6	tetraploid
+
+weight 80
+Cucsa.212920	1543	713333	719724	+	3	tetraploid
+8716FGENESHplus_30fg	8716	108251	114614	-	6	tetraploid
+
+weight 69
+Cucsa.212930	1543	721478	723592	+	3	tetraploid
+8716FGENESHplus_29fg	8716	105017	106329	-	6	tetraploid
+
+weight 64
+Cucsa.213000	1543	762732	768180	+	3	tetraploid
+8716FGENESHplus_26fg	8716	42590	46257	+	6	tetraploid
+
+weight 71
+Cucsa.213030	1543	784972	788791	-	3	tetraploid
+8716FGENESHplus_23fg.50558FGENESHplus_24fg	8716	14852	19796	+	6	tetraploid
+
+weight 77
+Egrandis_v1_0.026573m	6	45135712	45137863	+	4	tetraploid
+Egrandis_v1_0.026567m	6	27297361	27299235	+	4	tetraploid
+
+weight 80
+Egrandis_v1_0.001605m	4	8616945	8623281	+	4	tetraploid
+gene29698-v1.0-hybrid	3	5190037	5200643	-	5	diploid
+
+weight 79
+Egrandis_v1_0.010605m	4	8669712	8671172	+	4	tetraploid
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+
+weight 68
+Egrandis_v1_0.012244m	5	44697712	44705363	+	4	tetraploid
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+
+weight 73
+Egrandis_v1_0.016465m	5	44766006	44770921	-	4	tetraploid
+gene29698-v1.0-hybrid	3	5190037	5200643	-	5	diploid
+
+weight 83
+Egrandis_v1_0.026567m	6	27297361	27299235	+	4	tetraploid
+gene20550-v1.0-hybrid	3	29734270	29747834	-	5	diploid
+
+weight 74
+Egrandis_v1_0.026567m	6	27297361	27299235	+	4	tetraploid
+gene15535-v1.0-hybrid	6	15382959	15384192	-	5	diploid
+
+weight 71
+Egrandis_v1_0.003927m	6	45127964	45133355	+	4	tetraploid
+gene20550-v1.0-hybrid	3	29734270	29747834	-	5	diploid
+
+weight 73
+Egrandis_v1_0.052999m	8	71709582	71713685	+	4	tetraploid
+gene17115-v1.0-hybrid	2	10353276	10357056	+	5	diploid
+
+weight 79
+Egrandis_v1_0.001605m	4	8616945	8623281	+	4	tetraploid
+8716FGENESHplus_30fg	8716	108251	114614	-	6	tetraploid
+
+weight 67
+Egrandis_v1_0.004233m	5	44611239	44615573	+	4	tetraploid
+7938FGENESHplus_148fg	7938	135461	140399	-	6	tetraploid
+
+weight 63
+Egrandis_v1_0.004766m	5	44662385	44666024	+	4	tetraploid
+7938FGENESHplus_144fg	7938	107219	109665	-	6	tetraploid
+
+weight 73
+Egrandis_v1_0.012244m	5	44697712	44705363	+	4	tetraploid
+7938FGENESHplus_143fg	7938	101686	105602	-	6	tetraploid
+
+weight 77
+Egrandis_v1_0.006005m	5	44746712	44751508	+	4	tetraploid
+7938FGENESHplus_151fg	7938	30341	34181	-	6	tetraploid
+
+weight 65
+Egrandis_v1_0.011093m	5	44756449	44757882	-	4	tetraploid
+7938FGENESHplus_139fg	7938	18088	19373	+	6	tetraploid
+
+weight 72
+Egrandis_v1_0.016465m	5	44766006	44770921	-	4	tetraploid
+7938FGENESHplus_137fg	7938	12194	13874	+	6	tetraploid
+
+weight 70
+Egrandis_v1_0.012244m	5	44697712	44705363	+	4	tetraploid
+8716FGENESHplus_23fg.50558FGENESHplus_24fg	8716	14852	19796	+	6	tetraploid
+
+weight 74
+Egrandis_v1_0.006005m	5	44746712	44751508	+	4	tetraploid
+8716FGENESHplus_26fg	8716	42590	46257	+	6	tetraploid
+
+weight 65
+Egrandis_v1_0.011093m	5	44756449	44757882	-	4	tetraploid
+8716FGENESHplus_29fg	8716	105017	106329	-	6	tetraploid
+
+weight 66
+Egrandis_v1_0.003899m	5	67339779	67347231	+	4	tetraploid
+7729FGENESHplus_382fg	7729	148009	151283	+	6	tetraploid
+
+weight 81
+Egrandis_v1_0.026567m	6	27297361	27299235	+	4	tetraploid
+964FGENESHplus_10fg	964	162755	163680	-	6	tetraploid
+
+weight 79
+Egrandis_v1_0.026567m	6	27297361	27299235	+	4	tetraploid
+7729FGENESHplus_384fg	7729	161568	164847	+	6	tetraploid
+
+weight 68
+Egrandis_v1_0.003927m	6	45127964	45133355	+	4	tetraploid
+7729FGENESHplus_382fg	7729	148009	151283	+	6	tetraploid
+
+weight 78
+Egrandis_v1_0.026573m	6	45135712	45137863	+	4	tetraploid
+7729FGENESHplus_384fg	7729	161568	164847	+	6	tetraploid
+
+weight 77
+Egrandis_v1_0.026573m	6	45135712	45137863	+	4	tetraploid
+964FGENESHplus_10fg	964	162755	163680	-	6	tetraploid
+
+weight 76
+gene17115-v1.0-hybrid	2	10353276	10357056	+	5	diploid
+7110FGENESHplus_245fg	7110	451711	455461	+	6	tetraploid
+
+weight 71
+gene29678-v1.0-hybrid	3	5089422	5093503	+	5	diploid
+7938FGENESHplus_148fg	7938	135461	140399	-	6	tetraploid
+
+weight 67
+gene29685-v1.0-hybrid	3	5121415	5123768	+	5	diploid
+7938FGENESHplus_144fg	7938	107219	109665	-	6	tetraploid
+
+weight 80
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+7938FGENESHplus_143fg	7938	101686	105602	-	6	tetraploid
+
+weight 83
+gene29693-v1.0-hybrid	3	5169489	5173078	+	5	diploid
+7938FGENESHplus_152fg	7938	35648	39330	-	6	tetraploid
+
+weight 70
+gene29698-v1.0-hybrid	3	5190037	5200643	-	5	diploid
+7938FGENESHplus_137fg	7938	12194	13874	+	6	tetraploid
+
+weight 71
+gene29686-v1.0-hybrid	3	5126418	5135770	+	5	diploid
+8716FGENESHplus_23fg.50558FGENESHplus_24fg	8716	14852	19796	+	6	tetraploid
+
+weight 81
+gene29698-v1.0-hybrid	3	5190037	5200643	-	5	diploid
+8716FGENESHplus_30fg	8716	108251	114614	-	6	tetraploid
+
+weight 75
+gene20550-v1.0-hybrid	3	29734270	29747834	-	5	diploid
+7729FGENESHplus_384fg	7729	161568	164847	+	6	tetraploid
+
+weight 73
+gene15535-v1.0-hybrid	6	15382959	15384192	-	5	diploid
+3140FGENESHplus_415fg	3140	215396	216376	-	6	tetraploid
+
+weight 77
+gene15535-v1.0-hybrid	6	15382959	15384192	-	5	diploid
+964FGENESHplus_10fg	964	162755	163680	-	6	tetraploid
+
+weight 85
+964FGENESHplus_10fg	964	162755	163680	-	6	tetraploid
+7729FGENESHplus_384fg	7729	161568	164847	+	6	tetraploid
+
+weight 77
+964FGENESHplus_10fg	964	162755	163680	-	6	tetraploid
+3140FGENESHplus_415fg	3140	215396	216376	-	6	tetraploid
+
+weight 72
+3140FGENESHplus_415fg	3140	215396	216376	-	6	tetraploid
+7729FGENESHplus_384fg	7729	161568	164847	+	6	tetraploid

@@ -1,0 +1,3 @@
+This pipeline is used to assemble Budgerigar which is one of the genomes to assemble in Assemblathon2.
+1. Download all datas and put them into different directories according to their library names, such as PARprgDAPDCAAPE.
+2. sh pipeline.sh
