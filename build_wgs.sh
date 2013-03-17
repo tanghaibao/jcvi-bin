@@ -16,9 +16,9 @@ cvs -d:pserver:anonymous@wgs-assembler.cvs.sf.net:/cvsroot/wgs-assembler co -P s
 svn co https://kmer.svn.sourceforge.net/svnroot/kmer/trunk kmer
 cd kmer
 sh configure.sh
-gmake -j 16
-gmake install
+make -j 16
+make install
 cd ..
 
 cd src
-gmake -j 16
+make -j 16
