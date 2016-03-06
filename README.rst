@@ -26,9 +26,5 @@ Contents
     Bash script to install ALLPATHS-LG, Jame Kent's programs, and Celera
     Assembler, respectively.
 
-- ``last``
-    Blazing fast sequence aligner downloaded `here <http://last.cbrc.jp/>`_.
-    Patched to produce BLAST-like tabular output.
-
 - ``bin``
     Contains miscellaneous binary (compiled) programs.
