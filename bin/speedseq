@@ -436,7 +436,7 @@ global options:
             $SAMBAMBA sort -t 4 -m 1G --tmpdir=$TEMP_DIR/disc -o $OUTPUT.discordants.bam /dev/stdin
         " | $PARALLEL -j 3
     fi
-    
+
     # index the files
     if [[ $VERBOSE -eq 1 ]]
     then
@@ -628,7 +628,7 @@ options:
     then
 	TEMP_DIR=`mktemp -d ${OUTBASE}.XXXXXXXXXXXX`
     else
-	mkdir -p $TEMP_DIR	
+	mkdir -p $TEMP_DIR
     fi
 
     # if no windows file, then make naive windows based on the chroms
@@ -643,7 +643,7 @@ options:
 	$SAMBAMBA view -H ${BAM_LIST[0]} | grep "^@SQ" | cut -f 2- | awk '{ gsub("^SN:","",$1); gsub("^LN:","",$2); print $1"\t0\t"$2; }' > $TEMP_DIR/windows.bed
 	WINDOWS="$TEMP_DIR/windows.bed"
     fi
-    
+
     # construct the parallel command over windows
     if [[ $VERBOSE -eq 1 ]]
     then
@@ -656,7 +656,7 @@ options:
             | $VAWK --header '\$6>=$MINQUAL && I\$RPR>0 && I\$RPL>0' \\
             > ${TEMP_DIR}/$OUTBASE.\$i.vcf"
     fi
-    
+
     for i in `cat $WINDOWS | awk '{print $1":"$2".."$3}'`
     do
         echo "$FREEBAYES \
@@ -978,7 +978,7 @@ options:
     then
 	TEMP_DIR=`mktemp -d ${OUTBASE}.XXXXXXXXXXXX`
     else
-	mkdir -p $TEMP_DIR	
+	mkdir -p $TEMP_DIR
     fi
 
     # if no windows file, then make naive windows based on the chroms
@@ -1081,7 +1081,7 @@ options:
                 --vcf \\
                 --fields Consequence,Codons,Amino_acids,Gene,SYMBOL,Feature,EXON,PolyPhen,SIFT,Protein_position,BIOTYPE \\
                 | $BGZIP -c > $OUTPUT.vcf.gz"
-	fi    
+	fi
 	for i in `cat $WINDOWS | awk '{print $1":"$2".."$3}'`
 	do
             # if this fails then it bails out the script, unless || true present
@@ -1115,7 +1115,7 @@ options:
         cat $TEMP_DIR/$OUTBASE.\"\$chrom:\$start..\$end\".vcf | grep -v \"^#\" \\
             | sort -k1,1 -k2,2n | cat $TEMP_DIR/header.txt - \\
             | $BGZIP -c > $OUTPUT.vcf.gz"
-	fi    
+	fi
 	for i in `cat $WINDOWS | awk '{print $1":"$2".."$3}'`
 	do
             # if this fails then it bails out the script
@@ -1153,7 +1153,7 @@ options:
 	fi
 	rm -r $TEMP_DIR
     fi
-	
+
     echo "Done"
 
     # exit cleanly
@@ -1171,7 +1171,7 @@ sv options:
          -D FILE  discordant reads BAM files(s) (comma separated) (required)
          -R FILE  indexed reference genome fasta file (required)
          -o STR   output prefix [fullBam.bam]
-         -t INT   threads [1] 
+         -t INT   threads [1]
          -x FILE  BED file to exclude
          -g       genotype SV breakends with svtyper
          -d       calculate read-depth with CNVnator
@@ -1244,7 +1244,7 @@ global options:
             x)
 	        EXCLUDE_BED="$OPTARG"
 		EXCLUDE_BED_FMT="-x $EXCLUDE_BED"
-		;;  
+		;;
             T)
                 TEMP_DIR="$OPTARG"
                 ;;
@@ -1423,7 +1423,7 @@ global options:
     then
 	TEMP_DIR=`mktemp -d ${OUTBASE}.XXXXXXXXXXXX`
     else
-	mkdir -p $TEMP_DIR	
+	mkdir -p $TEMP_DIR
     fi
 
     # run lumpy express
@@ -1588,7 +1588,7 @@ cat  $TEMP_DIR/$OUTBASE.sv.vcf \\
     fi
 
     echo "SV calling done."
-    
+
     # exit cleanly
     exit 0
 }
@@ -1848,6 +1848,10 @@ global options:
 	echo "Done"
     fi
 
+    # Added in by Haibao
+    echo -e "Replacing $SAMBAMBA with samtools"
+	SAMBAMBA="samtools"
+
     echo "Aligning..."
     for i in $( seq 0 $(( ${#REALIGN_RG_LIST[@]}-1 )) )
     do
@@ -1877,14 +1881,14 @@ global options:
             $BWA mem -t $THREADS -C -p $INS_DIST $RG_FMT $REF $FQ \
                 | $PYTHON $BAMHEADRG -d $TEMP_DIR/header.txt -r $REALIGN_RG \
                 | $SAMBLASTER $INCLUDE_DUPS --addMateTags --maxSplitCount $MAX_SPLIT_COUNT --minNonOverlap $MIN_NON_OVERLAP --splitterFile $TEMP_DIR/spl_pipe --discordantFile $TEMP_DIR/disc_pipe \
-                | $SAMBAMBA view -S -f bam -l 0 /dev/stdin \
-                | $SAMBAMBA sort -t $THREADS -m $((${SORT_MEM}-2))G --tmpdir=$TEMP_DIR/full -o $TEMP_DIR/$OUTBASE.$(($i+1)).bam /dev/stdin
+                | $SAMBAMBA view -b /dev/stdin \
+                | $SAMBAMBA sort -@ $THREADS -o $TEMP_DIR/$OUTBASE.$(($i+1)).bam /dev/stdin
 	    gawk '{ if (\$0~\"^@\") { print; next } else { \$10=\"*\"; \$11=\"*\"; print } }' OFS=\"\\t\" $TEMP_DIR/spl_pipe \
-		| $SAMBAMBA view -S -f bam -l 0 /dev/stdin \
-                | $SAMBAMBA sort -t 4 -m 1G --tmpdir=$TEMP_DIR/spl -o $TEMP_DIR/$OUTBASE.$(($i+1)).splitters.bam /dev/stdin
+		| $SAMBAMBA view -b /dev/stdin \
+                | $SAMBAMBA sort -@ 4 -o $TEMP_DIR/$OUTBASE.$(($i+1)).splitters.bam /dev/stdin
 	    gawk '{ if (\$0~\"^@\") { print; next } else { \$10=\"*\"; \$11=\"*\"; print } }' OFS=\"\\t\" $TEMP_DIR/disc_pipe \
-		| $SAMBAMBA view -S -f bam -l 0 /dev/stdin \
-                | $SAMBAMBA sort -t 4 -m 1G --tmpdir=$TEMP_DIR/disc -o $TEMP_DIR/$OUTBASE.$(($i+1)).discordants.bam /dev/stdin
+		| $SAMBAMBA view -b /dev/stdin \
+                | $SAMBAMBA sort -@ 4 -o $TEMP_DIR/$OUTBASE.$(($i+1)).discordants.bam /dev/stdin
             " | $PARALLEL -j 4
     done
 
@@ -1911,7 +1915,7 @@ global options:
 	    MERGE_DISCORDANTS="$MERGE_DISCORDANTS $TEMP_DIR/$OUTBASE.$(($i+1)).discordants.bam"
 	    MERGE_SPLITTERS="$MERGE_SPLITTERS $TEMP_DIR/$OUTBASE.$(($i+1)).splitters.bam"
 	done
-	
+
 	if [[ $VERBOSE -eq 1 ]]
 	then
             echo "
@@ -1924,7 +1928,7 @@ global options:
 	$SAMBAMBA merge -t $THREADS $OUTPUT.discordants.bam $MERGE_DISCORDANTS
 	$SAMBAMBA merge -t $THREADS $OUTPUT.splitters.bam $MERGE_SPLITTERS
 	rm $MERGE_FULL $MERGE_DISCORDANTS $MERGE_SPLITTERS
-	
+
         # index the files
 	if [[ $VERBOSE -eq 1 ]]
 	then
@@ -1973,7 +1977,7 @@ do
 done
 
 # call the function
-case "$1" in 
+case "$1" in
     'align')
 	align "${@:2}"
 	;;
